@@ -85,7 +85,7 @@ const handleSubmit= async (e)=>{
   console.log("submit ended")
 
   //fetching data from server getting bot response
-  const response=await fetch('https://learngpt.onrender.com', {                            //using fetch() with post method  fetcht(url,optional array of properties)
+  const response=await fetch('https://learngpt.onrender.com/', {                            //using fetch() with post method  fetcht(url,optional array of properties)
                                                         method: 'post',
                                                         headers:{
                                                           'content-Type':'application/json'
